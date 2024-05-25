@@ -2,8 +2,8 @@ const mongoose = require('mongoose');
 
 const entitySchema = new mongoose.Schema({
     name: String,
-    coordinate: Number,
-    label: String
+    coordinate: Array,
+    label: Array
 })
 
 
